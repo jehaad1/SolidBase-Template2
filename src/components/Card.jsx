@@ -25,14 +25,14 @@ export default function Card(props) {
       >
         {title}
       </h1>
-      <h3
+      <h2
         className="
         text-white
         z-10
         pt-2 px-0.5"
       >
         {description}
-      </h3>
+      </h2>
     </a>
   );
 }
